@@ -8,7 +8,7 @@ sns.set(style='dark')
 
 #Memanggil data yang sudah dibersihkan dan menyimpannya ke dalam variable df
 
-df = pd.read_csv(r'C:\Users\Dhiyaksa Rama\Proyek Analisis Data\streamlitprocject\Sharing_Bike_Clean.csv')
+df = pd.read_csv(r'C:\Users\Dhiyaksa Rama\Proyek_Analisis_Data\streamlitprocject\Sharing_Bike_Clean.csv')
 
 #Mengubah tipe data kolom dteday menjadi tipe data datetime 
 df['dteday'] = pd.to_datetime(df['dteday'])
